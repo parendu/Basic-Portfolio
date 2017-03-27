@@ -31,7 +31,7 @@ h1 {
 }
 
 .topnav a {
-	display: block;
+	
     float: left;
     background: #ffffff;
     color: #777777;
@@ -96,21 +96,80 @@ aside {
 	height: auto;
 	padding: 20px;
 	background-color: white;
-	border-bottom: 1px green;
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 70px;
+
 }
 
 footer {
 	padding: 20px;
 	background-color: #666666;
 	clear: both;
-	
-	border-top: 3px solid #4aaaa5;
+	color: #ffffff;
+	border-top: 4px solid #4aaaa5;
 	}
 
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    resize: vertical;
+    text-align: left;
 
+
+}
+label { 
+	display: block; 
+	float: left;
+	color:  #777777;
+}
+input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    float: left;   
+}	
+
+
+div.portfolio {
+	margin-left: 80px;
 	
+}
+div.gallery {
+    margin: 5px;
+   
+    float: left;
+    width: 180px;
+    height: 180px;
+    float: left;  
+    position: relative; 
+}
 
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+
+}
+
+div.desc {
+	display: block;
+	width: 100%;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    
+    
+}
