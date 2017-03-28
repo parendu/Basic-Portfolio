@@ -97,6 +97,15 @@ aside {
 	margin-left: 70px;
 }
 
+#myimage {
+
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    
+}
+
 /*
 *======== Connect websites ======
 */
@@ -172,7 +181,6 @@ div.gallery {
     float: left;
     width: 216px;
     height: 216px;
-    float: left;  
     position: relative; 
 }
 
